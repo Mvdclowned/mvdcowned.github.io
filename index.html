@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVD BIO</title>
+    <style>
+        body {
+            background-image: url('https://pictures.pibig.info/uploads/posts/2023-11/thumbs/1700513172_pictures-pibig-info-p-raskraska-blek-rasha-krasivo-6.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #e0e0e0;
+            font-family: 'Ulm Grotesk Extrabold', sans-serif;
+            text-align: center;
+            padding: 10px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeIn 1s forwards;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 8px 0;
+            color: #f0f0f0;
+        }
+
+        p {
+            margin: 4px 0;
+            font-size: 18px;
+            color: #d0d0d0;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s 0.5s forwards; /* Задержка для кнопок */
+        }
+
+        .button {
+            background: rgba(67, 67, 67, 0.8);
+            border: none;
+            border-radius: 50px;
+            color: #ffffff;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            width: 200px;
+            margin: 4px 0;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .button:hover {
+            background: #2e2e2e;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            color: #b0b0b0;
+            font-size: 12px;
+            margin-top: auto;
+            opacity: 0;
+            animation: fadeIn 1s 1s forwards; /* Задержка для футера */
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MVD BIO</h1>
+        <p>My first name: Alexander</p>
+        <p>My last name: ????????</p>
+        <p>My nickname: mvd</p>
+        <p>Age: 14 y.o</p>
+    </header>
+
+    <div class="button-container">
+        <a href="https://t.me/salemvdclowned" class="button">MY TG</a>
+        <a href="https://github.com/Mvdclowned" class="button">My GitHub</a>
+    </div>
+
+    <footer>
+        <p>©2024 by MVD | BIO</p>
+    </footer>
+</body>
+</html>
